@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import requests
 import json
 from datetime import datetime, timedelta
@@ -8,17 +9,18 @@ import sqlite3
 import bcrypt
 import uuid
 import base64
+from io import BytesIO
+import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import smtplib
+import matplotlib.pyplot as plt
+import seaborn as sns
 from wordcloud import WordCloud
 from streamlit_option_menu import option_menu
-import google.generativeai as genai
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Suppress warnings
 import warnings
@@ -699,4 +701,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
