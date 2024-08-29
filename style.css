@@ -1,0 +1,28 @@
+/* style.css */
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.stApp {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.stButton>button {
+    color: #4F8BF9;
+    border-radius: 20px;
+    height: 3em;
+    width: 100%;
+}
+
+.stTextInput>div>div>input {
+    color: #4F8BF9;
+}
+
+.stSelectbox>div>div>select {
+    color: #4F8BF9;
+}
+
+.stDateInput>div>div>input {
+    color: #4F8BF9;
+}
